@@ -38,7 +38,6 @@ public class SaleDTO implements Serializable{
 		seller = new SellerDTO(entity.getSeller());
 	}
 	
-
 	public Long getId() {
 		return id;
 	}
